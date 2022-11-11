@@ -1,17 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package hybridarray;
  
-
-
-
-/**
- *
- * @author sheha
- */
 public class TestHybridArray {
     
 
@@ -20,24 +9,39 @@ public class TestHybridArray {
         hdizi.println();
   
         hdizi.addLast(13);
-        System.out.println("Dizinin sonunda 13 ekledim");
+        System.out.println("Dizinin sonunda 13 ekledi");
         hdizi.println();
         
         hdizi.addFirst(22);
-        System.out.println("Dizinin ilk eleman 22 ekledim");
+        System.out.println("Dizinin ilk eleman 22 ekledi");
         hdizi.println();
         
-        System.out.println("index 12'de bir eleman ekledim");
-        hdizi.insert(12);
+        System.out.println("index 5'te bir eleman ekledi");
+        hdizi.insert(5,44);
         hdizi.println();
         
         System.out.println("ilk eleman sildim");
-        hdizi.removeFirst(0);
+        hdizi.removeFirst();
         hdizi.println();
         
-        System.out.println("Hepsi Eleman sildim");
+        System.out.println("Girdiginiz indexteki eleman ekrana gosterdi");
+        hdizi.get(5);
+        hdizi.println();
+        
+        System.out.println("girdiginiz indexteki eleman sildi");
+        hdizi.removeAt(5);
+        hdizi.println();
+        
+        System.out.println("Son eleman sildi");
+        hdizi.removeLast();
+        hdizi.println();
+        
+        System.out.println("Hepsi Eleman sildi");
         hdizi.clear();
         hdizi.println();
+        
+        
+        
                 
         
         
